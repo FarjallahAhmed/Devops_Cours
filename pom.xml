@@ -15,8 +15,8 @@
 	<description>tpAchatProject</description>
 	<distributionManagement>
       <repository>
-        <id>deploymentRepo</id>
-		<urL> http://192.168.1.50:8081/repository/maven-releases/</url>
+          <id>deploymentRepo</id>
+		  <urL> http://192.168.1.50:8081/repository/maven-releases/</url>
       </repository>
     </distributionManagement>
 	<properties>
@@ -76,7 +76,7 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -85,7 +85,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	
 
 </project>
