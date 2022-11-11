@@ -16,7 +16,7 @@
 	<distributionManagement>
       <repository>
           <id>deploymentRepo</id>
-		  <urL> http://192.168.1.50:8081/repository/maven-releases/</url>
+		  <urL> http://localhost/repository/maven-releases/</url>
       </repository>
     </distributionManagement>
 	<properties>
